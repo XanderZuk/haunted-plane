@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\xander\\documents\\github\\haunted-plane\\hauntedplane\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hauntedplane\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\xander\\documents\\github\\haunted-plane\\hauntedplane\\intermediate\\build\\win64\\x64\\hauntedplaneeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\xander\\documents\\github\\haunted-plane\\hauntedplane\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hauntedplane\\definitions.hauntedplane.h",
+            "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"file": "C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlane.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlane.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlane.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\Source\\HauntedPlane\\Private\\ProceduralGeneration.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\Source\\HauntedPlane\\Public\\ProceduralGeneration.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.6\\Engine\\Source"
+	}
+]
