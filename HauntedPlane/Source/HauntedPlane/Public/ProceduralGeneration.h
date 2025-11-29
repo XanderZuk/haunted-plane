@@ -5,7 +5,15 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "ProceduralGeneration.generated.h"
-#include <vector>
+
+USTRUCT(BlueprintType)
+struct FMapRow
+{
+	GENERATED_BODY()
+
+	UPROPERTY(BlueprintReadWrite)
+	TArray<int> Row;
+};
 
 UCLASS()
 class HAUNTEDPLANE_API AProceduralGeneration : public AActor
@@ -15,27 +23,23 @@ class HAUNTEDPLANE_API AProceduralGeneration : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AProceduralGeneration();
-
-	UPROPERTY(EditAnywhere)
-	float weightSolvability;
-	UPROPERTY(EditAnywhere)
-	float weightComplexity;
-	UPROPERTY(EditAnywhere)
-	float weightOpenness;
-	UPROPERTY(BlueprintCallable)
-	int GenerateMap(int mapSize, int nstates, int nGenerations);
 	
+	UFUNCTION(BlueprintCallable)
+	static TArray<FMapRow> GenerateMap(int mapSize, int initialStates, int generations, float complexityWeight, float solvabilityWeight, float opennessWeight);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-private:
-	float fitness(std::vector<std::vector<int>> map);
-	float solvability(std::vector<std::vector<int>> map);
-	float complexity(std::vector<std::vector<int>> map);
-	float openness(std::vector<std::vector<int>> map);
+	static float Solvability(TArray<TArray<int>> map);
+	static float Complexity(TArray<TArray<int>> map);
+	static float Openness(TArray<TArray<int>> map);
+	static float Fitness(TArray<TArray<int>> map, float complexityWeight, float solvabilityWeight, float opennessWeight);
+	static void PrintState(TArray<TArray<int>> map);
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 };
+
+

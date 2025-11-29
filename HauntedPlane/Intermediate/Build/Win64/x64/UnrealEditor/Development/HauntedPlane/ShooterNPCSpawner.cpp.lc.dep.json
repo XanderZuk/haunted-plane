@@ -1,0 +1,36 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unrealprojects\\hauntedplane\\source\\hauntedplane\\variant_shooter\\ai\\shooternpcspawner.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealprojects\\hauntedplane\\intermediate\\build\\win64\\x64\\hauntedplaneeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\unrealprojects\\hauntedplane\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hauntedplane\\definitions.hauntedplane.h",
+            "c:\\unrealprojects\\hauntedplane\\source\\hauntedplane\\variant_shooter\\ai\\shooternpcspawner.h",
+            "c:\\unrealprojects\\hauntedplane\\intermediate\\build\\win64\\unrealeditor\\inc\\hauntedplane\\uht\\shooternpcspawner.generated.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\capsulecomponent.generated.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\components\\arrowcomponent.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\arrowcomponent.generated.h",
+            "c:\\unrealprojects\\hauntedplane\\source\\hauntedplane\\variant_shooter\\ai\\shooternpc.h",
+            "c:\\unrealprojects\\hauntedplane\\source\\hauntedplane\\hauntedplanecharacter.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\net\\iris\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "c:\\unrealprojects\\hauntedplane\\intermediate\\build\\win64\\unrealeditor\\inc\\hauntedplane\\uht\\hauntedplanecharacter.generated.h",
+            "c:\\unrealprojects\\hauntedplane\\source\\hauntedplane\\variant_shooter\\weapons\\shooterweaponholder.h",
+            "c:\\unrealprojects\\hauntedplane\\intermediate\\build\\win64\\unrealeditor\\inc\\hauntedplane\\uht\\shooterweaponholder.generated.h",
+            "c:\\unrealprojects\\hauntedplane\\intermediate\\build\\win64\\unrealeditor\\inc\\hauntedplane\\uht\\shooternpc.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

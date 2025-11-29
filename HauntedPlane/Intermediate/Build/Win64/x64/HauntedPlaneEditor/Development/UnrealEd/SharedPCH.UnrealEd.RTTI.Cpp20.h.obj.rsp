@@ -1,9 +1,10 @@
-"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp"
+"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp"
 /I "."
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/UnrealEd/UHT"
 /I "Programs/UnrealLightmass/Public"
 /I "Editor/UnrealEd/Classes"
 /I "Editor/UnrealEd/Public"
+/I "Editor/UnrealEd/Internal"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/AssetDefinition/UHT"
 /I "Editor/AssetDefinition/Public"
 /I "Runtime/Core/Public"
@@ -27,13 +28,13 @@
 /I "Runtime/Engine/Internal"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/CoreOnline/UHT"
 /I "Runtime/CoreOnline/Public"
+/I "Runtime/Json/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/FieldNotification/UHT"
 /I "Runtime/FieldNotification/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/NetCore/UHT"
 /I "Runtime/Net/Core/Classes"
 /I "Runtime/Net/Core/Public"
 /I "Runtime/Net/Common/Public"
-/I "Runtime/Json/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/JsonUtilities/UHT"
 /I "Runtime/JsonUtilities/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/SlateCore/UHT"
@@ -123,7 +124,7 @@
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/ClothSysRuntimeIntrfc/UHT"
 /I "Runtime/ClothingSystemRuntimeInterface/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/IrisCore/UHT"
-/I "Runtime/Experimental/Iris/Core/Public"
+/I "Runtime/Net/Iris/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/MovieSceneCapture/UHT"
 /I "Runtime/MovieSceneCapture/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/Renderer/UHT"
@@ -176,6 +177,7 @@
 /I "Developer/DirectoryWatcher/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/Documentation/UHT"
 /I "Editor/Documentation/Public"
+/I "../Intermediate/Build/Win64/UnrealEditor/Inc/MainFrame/UHT"
 /I "Editor/MainFrame/Public"
 /I "Runtime/Projects/Public"
 /I "Runtime/Projects/Internal"
@@ -227,6 +229,7 @@
 /I "Editor/StructViewer/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/MaterialEditor/UHT"
 /I "Editor/MaterialEditor/Public"
+/I "Editor/MaterialEditor/Internal"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/ContentBrowser/UHT"
 /I "Editor/ContentBrowser/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/AssetTools/UHT"
@@ -309,17 +312,16 @@
 /external:I "ThirdParty/LibTiff/Source/Win64"
 /external:I "ThirdParty/LibTiff/Source"
 /external:I "ThirdParty/OpenGL"
-/external:I "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/INCLUDE"
+/external:I "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.44.35207/INCLUDE"
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/ucrt"
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/shared"
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/um"
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/winrt"
 /Yc"SharedPCH.UnrealEd.RTTI.Cpp20.h"
-/Fp"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.pch"
-/Fo"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.obj"
-/experimental:log "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.sarif"
-/sourceDependencies "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.dep.json"
-/Zc:inline
+/Fp"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.pch"
+/Fo"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.obj"
+/experimental:log "C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.sarif"
+/sourceDependencies "C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.dep.json"
 /nologo
 /Oi
 /FC
@@ -333,6 +335,8 @@
 /permissive-
 /Zc:strictStrings-
 /Zc:__cplusplus
+/Zc:inline
+/Zc:preprocessor
 /D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
 /D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
 /D_WINDLL
@@ -357,8 +361,10 @@
 /we4459
 /wd4244
 /wd4838
+/we4668
+/wd4267
+/wd4100
 /TP
 /GR
 /std:c++20
-/Zc:preprocessor
 /wd5054

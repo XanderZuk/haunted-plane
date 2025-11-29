@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unrealprojects\\hauntedplane\\source\\hauntedplane\\hauntedplanegamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealprojects\\hauntedplane\\intermediate\\build\\win64\\x64\\hauntedplaneeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\unrealprojects\\hauntedplane\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hauntedplane\\definitions.hauntedplane.h",
+            "c:\\unrealprojects\\hauntedplane\\source\\hauntedplane\\hauntedplanegamemode.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\unrealengine\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\unrealprojects\\hauntedplane\\intermediate\\build\\win64\\unrealeditor\\inc\\hauntedplane\\uht\\hauntedplanegamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
