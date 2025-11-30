@@ -52,6 +52,13 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 
 	for (int i = 0; i < generations; i++)
 	{
+		for (auto& state : states)
+		{
+			int centerIndex = mapSize / 2;
+			state[centerIndex][centerIndex] = 0;	// Clears the center tile for an accurate measure of fitness
+		}
+		
+		UE_LOG(LogTemp, Display, TEXT("Generation: %d\n"), i);
 		///////////////
 		// Selection //
 		/////////////// 
@@ -92,7 +99,7 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 		// Crossover //
 		///////////////
 
-		for (int j = 0; j < nextStates.Num() - 1; i += 2)
+		for (int j = 0; j < nextStates.Num() - 1; j += 2)
 		{
 			int rand = FMath::RandRange(0, mapSize - 1); // crossover point
 			TArray<TArray<int>> temp = nextStates[j];	// make a copy of the first state of the pair
@@ -116,7 +123,7 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 			{
 				for (auto& cell : col)
 				{
-					if (FMath::RandRange(0, 20) == 1)	// 1 in 20 chance of a mutation per cell
+					if (FMath::RandRange(0, 100) == 1)	// 1 in 100 chance of a mutation per cell
 					{
 						cell = !cell;
 					}
@@ -125,6 +132,23 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 		}
 
 		states = nextStates;
+		float maxFitness = 0;
+		int maxFitnessIndex = 0;
+		for (int m = 0; m < states.Num(); m++)
+		{
+			float currentFitness = Fitness(states[m], complexityWeight, solvabilityWeight, opennessWeight);
+			//UE_LOG(LogTemp, Display, TEXT("State Fitness: %f\n"), currentFitness);
+			if (currentFitness > maxFitness)
+			{
+				maxFitness = currentFitness;
+				maxFitnessIndex = m;
+			}
+		}
+		UE_LOG(LogTemp, Display, TEXT("Max Fitness: %f\n"), maxFitness);
+		/////UE_LOG(LogTemp, Display, TEXT("Complexity: %f\n"), Complexity(states[maxFitnessIndex]));
+		/////UE_LOG(LogTemp, Display, TEXT("Solvability: %f\n"), Solvability(states[maxFitnessIndex]));
+		/////UE_LOG(LogTemp, Display, TEXT("Openness: %f\n"), Openness(states[maxFitnessIndex]));
+
 	}
     
 	// Find the most fit state
@@ -139,13 +163,16 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 			maxFitnessIndex = i;
 		}
 	}
-	// TODO: cut out center
+	
+	states[maxFitnessIndex] = GenerateBorder(states[maxFitnessIndex]);
+	states[maxFitnessIndex] = ClearCenter(states[maxFitnessIndex]);
 	TArray<FMapRow> finalMap;
 
 	for (auto& row : states[maxFitnessIndex])
 	{
 		finalMap.Add(FMapRow{row});
 	}
+	PrintState(states[maxFitnessIndex]);
 	return finalMap;
 }
 
@@ -162,14 +189,14 @@ void AProceduralGeneration::PrintState(TArray<TArray<int>> map)
 		for (auto& j : i)
 		{
 			if (j == 1)
-				output += "\u25A0";
+				output += "1";
 			else
-				output += "\u25A1";
+				output += "0";
 		}
 		output += "\n";
 	}
 
-	UE_LOG(LogTemp, Display, TEXT("Printout: %hs\n"), output.c_str());
+	UE_LOG(LogTemp, Display, TEXT("Printout: \n%hs\n"), output.c_str());
 }
 
 float AProceduralGeneration::Solvability(TArray<TArray<int>> map)
@@ -203,7 +230,7 @@ float AProceduralGeneration::Solvability(TArray<TArray<int>> map)
 
 		for (auto& cell : neighbours)
 		{
-			if (cell.first >= 0 || cell.first <= map.Num() - 1)	// Check if the cell is in bounds
+			if ((cell.first >= 0 && cell.first < map.Num()) && (cell.second >= 0 && cell.second < map.Num()))	// Check if the cell is in bounds
 			{
 				if (visited[cell.first][cell.second] == 0)	// Check if the cell has been visited
 				{
@@ -224,7 +251,7 @@ float AProceduralGeneration::Solvability(TArray<TArray<int>> map)
 	{
 		for (int j = 0; j < map.Num(); j++)
 		{
-			if ((map[i][j] == 0) && (visited[i][j] == 1))
+			if ((visited[i][j] == 1))
 			{
 				cellsVisited++;
 			}
@@ -234,8 +261,7 @@ float AProceduralGeneration::Solvability(TArray<TArray<int>> map)
 			}
 		}
 	}
-
-	return (cellsVisited / cellsNotVisited) * 100;
+	return (static_cast<float>(cellsVisited) / cellsNotVisited) * 100;
 
 }
 
@@ -253,7 +279,7 @@ float AProceduralGeneration::Complexity(TArray<TArray<int>> map)
 		}
 	}
 
-	return (wallCells / (map.Num() * map.Num())) * 100;	
+	return (static_cast<float>(wallCells) / (map.Num() * map.Num())) * 100;	
 }
 
 float AProceduralGeneration::Openness(TArray<TArray<int>> map)
@@ -319,6 +345,34 @@ float AProceduralGeneration::Openness(TArray<TArray<int>> map)
 		sumOfLongestDistance += longestDistance;
 	}
 
-	return sumOfLongestDistance / openCells.Num();
+	return static_cast<float>(sumOfLongestDistance) / openCells.Num();
 }
 
+TArray<TArray<int>> AProceduralGeneration::GenerateBorder(TArray<TArray<int>> map)
+{
+	TArray<int> wall;
+	wall.Init(1, map.Num());
+
+	map[0] = wall;
+	map[map.Num() - 1] = wall;
+    for (int i = 0; i < map.Num(); i++)
+	{
+		map[i][0] = 1;
+		map[i][map.Num() - 1] = 1;
+	}
+	return map;
+}
+
+TArray<TArray<int>> AProceduralGeneration::ClearCenter(TArray<TArray<int>> map)
+{
+    int centerIndex = map.Num() / 2;
+	for (int i = centerIndex - 2; i <= centerIndex + 2; i++)
+	{
+		for (int j = centerIndex - 2; j <= centerIndex + 2; j++)
+		{
+			map[i][j] = 0;
+		}
+	}
+
+	return map;
+}

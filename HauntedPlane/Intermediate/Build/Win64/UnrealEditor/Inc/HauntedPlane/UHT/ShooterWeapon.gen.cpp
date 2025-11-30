@@ -545,15 +545,15 @@ AShooterWeapon::~AShooterWeapon() {}
 // ********** End Class AShooterWeapon *************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_Statics
+struct Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AShooterWeapon, AShooterWeapon::StaticClass, TEXT("AShooterWeapon"), &Z_Registration_Info_UClass_AShooterWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterWeapon), 2621629141U) },
 	};
-}; // Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_2457834691{
+}; // Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_2457834691{
 	TEXT("/Script/HauntedPlane"),
-	Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_Weapons_ShooterWeapon_h__Script_HauntedPlane_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

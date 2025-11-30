@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_AHauntedPlaneGameMode_Statics;
 HAUNTEDPLANE_API UClass* Z_Construct_UClass_AHauntedPlaneGameMode_NoRegister();
 
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHauntedPlaneGameMode(); \
 	friend struct ::Z_Construct_UClass_AHauntedPlaneGameMode_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(AHauntedPlaneGameMode)
 
 
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AHauntedPlaneGameMode(AHauntedPlaneGameMode&&) = delete; \
 	AHauntedPlaneGameMode(const AHauntedPlaneGameMode&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~AHauntedPlaneGameMode();
 
 
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_12_PROLOG
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_GENERATED_BODY \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_12_PROLOG
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_INCLASS_NO_PURE_DECLS \
-	FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,6 @@ class AHauntedPlaneGameMode;
 // ********** End Class AHauntedPlaneGameMode ******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h
+#define CURRENT_FILE_ID FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneGameMode_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

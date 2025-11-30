@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_AHauntedPlaneCameraManager_Statics;
 HAUNTEDPLANE_API UClass* Z_Construct_UClass_AHauntedPlaneCameraManager_NoRegister();
 
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHauntedPlaneCameraManager(); \
 	friend struct ::Z_Construct_UClass_AHauntedPlaneCameraManager_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(AHauntedPlaneCameraManager)
 
 
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AHauntedPlaneCameraManager(AHauntedPlaneCameraManager&&) = delete; \
 	AHauntedPlaneCameraManager(const AHauntedPlaneCameraManager&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~AHauntedPlaneCameraManager();
 
 
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_13_PROLOG
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_GENERATED_BODY \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_13_PROLOG
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_INCLASS_NO_PURE_DECLS \
-	FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,6 @@ class AHauntedPlaneCameraManager;
 // ********** End Class AHauntedPlaneCameraManager *************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h
+#define CURRENT_FILE_ID FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_HauntedPlaneCameraManager_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

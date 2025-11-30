@@ -36,6 +36,8 @@ protected:
 	static float Openness(TArray<TArray<int>> map);
 	static float Fitness(TArray<TArray<int>> map, float complexityWeight, float solvabilityWeight, float opennessWeight);
 	static void PrintState(TArray<TArray<int>> map);
+	static TArray<TArray<int>> GenerateBorder(TArray<TArray<int>> map);
+	static TArray<TArray<int>> ClearCenter(TArray<TArray<int>> map);
 
 public:	
 	// Called every frame

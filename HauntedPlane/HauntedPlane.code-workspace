@@ -24,7 +24,9 @@
 			"list": "cpp",
 			"vector": "cpp",
 			"xstring": "cpp",
-			"utility": "cpp"
+			"utility": "cpp",
+			"*.rh": "cpp",
+			"map": "cpp"
 		}
 	},
 	"extensions": {

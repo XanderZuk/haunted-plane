@@ -1,8 +1,0 @@
-[17648:5292:1127/131719.737:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[17648:5292:1127/131719.864:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[17648:5292:1127/131723.303:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[17648:5292:1127/143451.036:ERROR:device_event_log_impl.cc(196)] [14:34:50.894] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[17648:5292:1127/171420.263:ERROR:device_event_log_impl.cc(196)] [17:14:20.037] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[17648:5292:1127/185822.864:ERROR:device_event_log_impl.cc(196)] [18:58:22.674] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[17648:5292:1127/192317.769:ERROR:device_event_log_impl.cc(196)] [19:23:17.755] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[17648:5292:1127/200549.704:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

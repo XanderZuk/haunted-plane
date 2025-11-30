@@ -1,12 +1,12 @@
-"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Module.HauntedPlane.cpp"
-@"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/HauntedPlane.Shared.rsp"
-/FI"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Definitions.HauntedPlane.h"
-/Yu"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Module.HauntedPlane.cpp.obj"
-/experimental:log "C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Module.HauntedPlane.cpp.sarif"
-/sourceDependencies "C:/UnrealProjects/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Module.HauntedPlane.cpp.dep.json"
+"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Module.HauntedPlane.cpp"
+@"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/HauntedPlane.Shared.rsp"
+/FI"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Definitions.HauntedPlane.h"
+/Yu"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/HauntedPlaneEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Module.HauntedPlane.cpp.obj"
+/experimental:log "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Module.HauntedPlane.cpp.sarif"
+/sourceDependencies "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Intermediate/Build/Win64/x64/UnrealEditor/Development/HauntedPlane/Module.HauntedPlane.cpp.dep.json"
 /nologo
 /Oi
 /FC

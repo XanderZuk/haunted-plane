@@ -19,7 +19,7 @@ struct FMapRow;
 
 // ********** Begin ScriptStruct FMapRow ***********************************************************
 struct Z_Construct_UScriptStruct_FMapRow_Statics;
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_12_GENERATED_BODY \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_12_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMapRow_Statics; \
 	HAUNTEDPLANE_API static class UScriptStruct* StaticStruct();
 
@@ -28,14 +28,14 @@ struct FMapRow;
 // ********** End ScriptStruct FMapRow *************************************************************
 
 // ********** Begin Class AProceduralGeneration ****************************************************
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGenerateMap);
 
 
 struct Z_Construct_UClass_AProceduralGeneration_Statics;
 HAUNTEDPLANE_API UClass* Z_Construct_UClass_AProceduralGeneration_NoRegister();
 
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_INCLASS_NO_PURE_DECLS \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProceduralGeneration(); \
 	friend struct ::Z_Construct_UClass_AProceduralGeneration_Statics; \
@@ -46,7 +46,7 @@ public: \
 	DECLARE_SERIALIZER(AProceduralGeneration)
 
 
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_ENHANCED_CONSTRUCTORS \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AProceduralGeneration(AProceduralGeneration&&) = delete; \
 	AProceduralGeneration(const AProceduralGeneration&) = delete; \
@@ -56,13 +56,13 @@ public: \
 	NO_API virtual ~AProceduralGeneration();
 
 
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_18_PROLOG
-#define FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_GENERATED_BODY \
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_18_PROLOG
+#define FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_INCLASS_NO_PURE_DECLS \
-	FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_ENHANCED_CONSTRUCTORS \
+	FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_INCLASS_NO_PURE_DECLS \
+	FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -72,6 +72,6 @@ class AProceduralGeneration;
 // ********** End Class AProceduralGeneration ******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h
+#define CURRENT_FILE_ID FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

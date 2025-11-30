@@ -236,15 +236,15 @@ UShooterBulletCounterUI::~UShooterBulletCounterUI() {}
 // ********** End Class UShooterBulletCounterUI ****************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_Statics
+struct Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UShooterBulletCounterUI, UShooterBulletCounterUI::StaticClass, TEXT("UShooterBulletCounterUI"), &Z_Registration_Info_UClass_UShooterBulletCounterUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UShooterBulletCounterUI), 3066989382U) },
 	};
-}; // Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_295108311{
+}; // Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_295108311{
 	TEXT("/Script/HauntedPlane"),
-	Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Variant_Shooter_UI_ShooterBulletCounterUI_h__Script_HauntedPlane_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

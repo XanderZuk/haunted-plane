@@ -1,4 +1,5 @@
 /I "."
+/I "C:/UnrealProjects/HauntedPlane/Source/HauntedPlane/Private"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/Engine/UHT"
 /I "Runtime/Engine/Classes"
 /I "Runtime/Engine/Public"
@@ -295,6 +296,7 @@
 /I "C:/UnrealProjects/HauntedPlane/Source/HauntedPlane/Variant_Shooter/UI"
 /I "C:/UnrealProjects/HauntedPlane/Source/HauntedPlane/Variant_Shooter/Weapons"
 /I "C:/UnrealProjects/HauntedPlane/Source"
+/I "C:/UnrealProjects/HauntedPlane/Source/HauntedPlane/Public"
 /I "../Plugins/EnhancedInput/Intermediate/Build/Win64/UnrealEditor/Inc/EnhancedInput/UHT"
 /I "../Plugins/EnhancedInput/Source"
 /I "../Plugins/EnhancedInput/Source/EnhancedInput/Public"
