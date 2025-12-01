@@ -25,7 +25,7 @@ public:
 	AProceduralGeneration();
 	
 	UFUNCTION(BlueprintCallable)
-	static TArray<FMapRow> GenerateMap(int mapSize, int initialStates, int generations, float complexityWeight, float solvabilityWeight, float opennessWeight);
+	static TArray<FMapRow> GenerateMap(int mapSize, int initialStates, int generations, float complexityWeight, float solvabilityWeight, float opennessWeight, int numberOfKeys);
 
 protected:
 	// Called when the game starts or when spawned
@@ -38,6 +38,7 @@ protected:
 	static void PrintState(TArray<TArray<int>> map);
 	static TArray<TArray<int>> GenerateBorder(TArray<TArray<int>> map);
 	static TArray<TArray<int>> ClearCenter(TArray<TArray<int>> map);
+	static TArray<TArray<int>> FindSpawnableLocation(TArray<TArray<int>> map, int numberOfKeys);
 
 public:	
 	// Called every frame

@@ -99,6 +99,7 @@ struct Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics
 		float complexityWeight;
 		float solvabilityWeight;
 		float opennessWeight;
+		int32 numberOfKeys;
 		TArray<FMapRow> ReturnValue;
 	};
 #if WITH_METADATA
@@ -114,6 +115,7 @@ struct Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_complexityWeight;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_solvabilityWeight;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_opennessWeight;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_numberOfKeys;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -128,6 +130,7 @@ const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AProceduralGen
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_complexityWeight = { "complexityWeight", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ProceduralGeneration_eventGenerateMap_Parms, complexityWeight), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_solvabilityWeight = { "solvabilityWeight", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ProceduralGeneration_eventGenerateMap_Parms, solvabilityWeight), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_opennessWeight = { "opennessWeight", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ProceduralGeneration_eventGenerateMap_Parms, opennessWeight), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_numberOfKeys = { "numberOfKeys", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ProceduralGeneration_eventGenerateMap_Parms, numberOfKeys), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FMapRow, METADATA_PARAMS(0, nullptr) }; // 73988200
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ProceduralGeneration_eventGenerateMap_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 73988200
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::PropPointers[] = {
@@ -137,6 +140,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AProce
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_complexityWeight,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_solvabilityWeight,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_opennessWeight,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_numberOfKeys,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_ReturnValue_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProceduralGeneration_GenerateMap_Statics::NewProp_ReturnValue,
 };
@@ -164,9 +168,10 @@ DEFINE_FUNCTION(AProceduralGeneration::execGenerateMap)
 	P_GET_PROPERTY(FFloatProperty,Z_Param_complexityWeight);
 	P_GET_PROPERTY(FFloatProperty,Z_Param_solvabilityWeight);
 	P_GET_PROPERTY(FFloatProperty,Z_Param_opennessWeight);
+	P_GET_PROPERTY(FIntProperty,Z_Param_numberOfKeys);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	*(TArray<FMapRow>*)Z_Param__Result=AProceduralGeneration::GenerateMap(Z_Param_mapSize,Z_Param_initialStates,Z_Param_generations,Z_Param_complexityWeight,Z_Param_solvabilityWeight,Z_Param_opennessWeight);
+	*(TArray<FMapRow>*)Z_Param__Result=AProceduralGeneration::GenerateMap(Z_Param_mapSize,Z_Param_initialStates,Z_Param_generations,Z_Param_complexityWeight,Z_Param_solvabilityWeight,Z_Param_opennessWeight,Z_Param_numberOfKeys);
 	P_NATIVE_END;
 }
 // ********** End Class AProceduralGeneration Function GenerateMap *********************************
@@ -217,7 +222,7 @@ struct Z_Construct_UClass_AProceduralGeneration_Statics
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AProceduralGeneration_GenerateMap, "GenerateMap" }, // 3865351625
+		{ &Z_Construct_UFunction_AProceduralGeneration_GenerateMap, "GenerateMap" }, // 3091617719
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -269,10 +274,10 @@ struct Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_Hau
 		{ FMapRow::StaticStruct, Z_Construct_UScriptStruct_FMapRow_Statics::NewStructOps, TEXT("MapRow"),&Z_Registration_Info_UScriptStruct_FMapRow, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMapRow), 73988200U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AProceduralGeneration, AProceduralGeneration::StaticClass, TEXT("AProceduralGeneration"), &Z_Registration_Info_UClass_AProceduralGeneration, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProceduralGeneration), 3882108332U) },
+		{ Z_Construct_UClass_AProceduralGeneration, AProceduralGeneration::StaticClass, TEXT("AProceduralGeneration"), &Z_Registration_Info_UClass_AProceduralGeneration, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProceduralGeneration), 1366282838U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h__Script_HauntedPlane_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h__Script_HauntedPlane_1767980583{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h__Script_HauntedPlane_3241037883{
 	TEXT("/Script/HauntedPlane"),
 	Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h__Script_HauntedPlane_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h__Script_HauntedPlane_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h__Script_HauntedPlane_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_xander_Documents_GitHub_haunted_plane_HauntedPlane_Source_HauntedPlane_Public_ProceduralGeneration_h__Script_HauntedPlane_Statics::ScriptStructInfo),

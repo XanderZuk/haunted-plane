@@ -27,7 +27,7 @@ void AProceduralGeneration::Tick(float DeltaTime)
 
 }
 
-TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialStates, int generations, float complexityWeight, float solvabilityWeight, float opennessWeight)
+TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialStates, int generations, float complexityWeight, float solvabilityWeight, float opennessWeight, int numberOfKeys)
 {
 	if (initialStates % 2 != 0)	// Ensures an even number of initial states for the algorithm
 		initialStates++;
@@ -166,6 +166,8 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 	
 	states[maxFitnessIndex] = GenerateBorder(states[maxFitnessIndex]);
 	states[maxFitnessIndex] = ClearCenter(states[maxFitnessIndex]);
+	states[maxFitnessIndex] = FindSpawnableLocation(states[maxFitnessIndex], numberOfKeys);
+	
 	TArray<FMapRow> finalMap;
 
 	for (auto& row : states[maxFitnessIndex])
@@ -363,6 +365,8 @@ TArray<TArray<int>> AProceduralGeneration::GenerateBorder(TArray<TArray<int>> ma
 	return map;
 }
 
+
+
 TArray<TArray<int>> AProceduralGeneration::ClearCenter(TArray<TArray<int>> map)
 {
     int centerIndex = map.Num() / 2;
@@ -374,5 +378,95 @@ TArray<TArray<int>> AProceduralGeneration::ClearCenter(TArray<TArray<int>> map)
 		}
 	}
 
+	return map;
+}
+
+TArray<TArray<int>> AProceduralGeneration::FindSpawnableLocation(TArray<TArray<int>> map, int numberOfKeys)
+{
+    std::queue<std::pair<int, int>> nextCells;
+	TArray<TArray<int>> visited;
+	for (int i = 0; i < map.Num(); i++)	// Initialize the visited array with 0's
+	{
+		TArray<int> row;
+		row.Init(0, map.Num());
+		visited.Add(row);
+	}
+
+	int center = map.Num() / 2;	// Force integer division to get the index of the center cell
+	map[center][center] = 0;	// Clear the center cell
+
+	nextCells.emplace(std::pair<int, int>(center, center));
+	visited[center][center] = 1;
+
+	while (!nextCells.empty())
+	{
+		std::pair<int, int> currentCell = nextCells.front();
+		nextCells.pop();
+		TArray<std::pair<int, int>> neighbours;
+
+		// Add potential neighbours to an array
+		neighbours.Add(std::pair<int, int>(currentCell.first - 1, currentCell.second));
+		neighbours.Add(std::pair<int, int>(currentCell.first + 1, currentCell.second));
+		neighbours.Add(std::pair<int, int>(currentCell.first, currentCell.second + 1));
+		neighbours.Add(std::pair<int, int>(currentCell.first, currentCell.second - 1));
+
+		for (auto& cell : neighbours)
+		{
+			if ((cell.first >= 0 && cell.first < map.Num()) && (cell.second >= 0 && cell.second < map.Num()))	// Check if the cell is in bounds
+			{
+				if (visited[cell.first][cell.second] == 0)	// Check if the cell has been visited
+				{
+					if (map[cell.first][cell.second] == 0) // Check if the cell is empty
+					{
+						nextCells.push(cell);	// Add the cell to the queue
+						visited[cell.first][cell.second] = 1;	// Mark it as visited
+					}
+				}
+			}
+		}
+
+	}
+
+	int remainingKeys = numberOfKeys;
+	while (remainingKeys != 0)
+	{
+		int x = FMath::RandRange(0, map.Num() / 4);
+		if (FMath::RandRange(0, 1) == 1)
+		{
+			x += (map.Num() / 2);
+		}
+
+		int y = FMath::RandRange(0, map.Num() / 4);
+		if (FMath::RandRange(0, 1) == 1)
+		{
+			y += (map.Num() / 2);
+		}
+
+		if (visited[x][y] == 1 && map[x][y] == 0)
+		{
+			map[x][y] = 2;
+			remainingKeys--;
+		}
+	}
+	while (1)
+	{
+		int x = FMath::RandRange(0, map.Num() / 4);
+		if (FMath::RandRange(0, 1) == 1)
+		{
+			x += (map.Num() / 2);
+		}
+
+		int y = FMath::RandRange(0, map.Num() / 4);
+		if (FMath::RandRange(0, 1) == 1)
+		{
+			y += (map.Num() / 2);
+		}
+
+		if (visited[x][y] == 1 && map[x][y] == 0)
+		{
+			map[x][y] = 3;
+			break;
+		}
+	}
 	return map;
 }
