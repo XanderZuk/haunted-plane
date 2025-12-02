@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "HauntedPlane",
-			"Path": "..\\Source\\HauntedPlane.Target.cs",
+			"Path": "../Source/HauntedPlane.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "HauntedPlaneEditor",
-			"Path": "..\\Source\\HauntedPlaneEditor.Target.cs",
+			"Path": "../Source/HauntedPlaneEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
