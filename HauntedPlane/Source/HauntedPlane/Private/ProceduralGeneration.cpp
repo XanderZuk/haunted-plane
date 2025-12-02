@@ -34,6 +34,7 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 	if (mapSize % 2 != 1)	// Ensures that the map can be centered on a single tile
 		mapSize++;
 	TArray<TArray<TArray<int>>> states;
+	TArray<TArray<int>> best;
 	// Generate initial states
 	for (int i = 0; i < initialStates; i++)
 	{	
@@ -48,6 +49,7 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 			map.Add(row);
 		}
 		states.Add(map);
+		best = map;
 	}
 
 	for (int i = 0; i < generations; i++)
@@ -143,6 +145,10 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 				maxFitness = currentFitness;
 				maxFitnessIndex = m;
 			}
+			if (currentFitness > Fitness(best, complexityWeight, solvabilityWeight, opennessWeight))
+			{
+				best = states[m];
+			}
 		}
 		UE_LOG(LogTemp, Display, TEXT("Max Fitness: %f\n"), maxFitness);
 		/////UE_LOG(LogTemp, Display, TEXT("Complexity: %f\n"), Complexity(states[maxFitnessIndex]));
@@ -154,6 +160,7 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 	// Find the most fit state
 	int maxFitnessIndex = 0;
 	float maxFitness = 0;
+	
 	for (int i = 0; i < states.Num(); i++)
 	{
 		float currentFitness = Fitness(states[i], complexityWeight, solvabilityWeight, opennessWeight);
@@ -163,18 +170,23 @@ TArray<FMapRow> AProceduralGeneration::GenerateMap(int mapSize, int initialState
 			maxFitnessIndex = i;
 		}
 	}
+	if (Fitness(states[maxFitnessIndex], complexityWeight, solvabilityWeight, opennessWeight) > Fitness(best, complexityWeight, solvabilityWeight, opennessWeight))
+	{
+		best = states[maxFitnessIndex];
+	}
 	
-	states[maxFitnessIndex] = GenerateBorder(states[maxFitnessIndex]);
-	states[maxFitnessIndex] = ClearCenter(states[maxFitnessIndex]);
-	states[maxFitnessIndex] = FindSpawnableLocation(states[maxFitnessIndex], numberOfKeys);
+	best = GenerateBorder(best);
+	best = ClearCenter(best);
+	best = FindSpawnableLocation(best, numberOfKeys);
+	UE_LOG(LogTemp, Display, TEXT("Fitness: %f\n"), Fitness(best, complexityWeight, solvabilityWeight, opennessWeight));
 	
 	TArray<FMapRow> finalMap;
 
-	for (auto& row : states[maxFitnessIndex])
+	for (auto& row : best)
 	{
 		finalMap.Add(FMapRow{row});
 	}
-	PrintState(states[maxFitnessIndex]);
+	PrintState(best);
 	return finalMap;
 }
 
