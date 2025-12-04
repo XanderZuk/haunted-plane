@@ -1,0 +1,394 @@
+[
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlane.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlane.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlane.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlaneCameraManager.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlaneCameraManager.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlaneCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlaneCharacter.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlaneGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlaneGameMode.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlanePlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlanePlayerController.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Private\\ProceduralGeneration.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Public\\ProceduralGeneration.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Horror\\HorrorCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Horror\\HorrorCharacter.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Horror\\HorrorGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Horror\\HorrorGameMode.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Horror\\HorrorPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Horror\\HorrorPlayerController.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Horror\\UI\\HorrorUI.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Horror\\UI\\HorrorUI.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\EnvQueryContext_Target.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\EnvQueryContext_Target.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\ShooterAIController.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\ShooterAIController.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\ShooterNPC.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\ShooterNPC.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\ShooterNPCSpawner.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\ShooterNPCSpawner.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\ShooterStateTreeUtility.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\AI\\ShooterStateTreeUtility.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\ShooterCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\ShooterCharacter.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\ShooterGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\ShooterGameMode.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\ShooterPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\ShooterPlayerController.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\UI\\ShooterBulletCounterUI.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\UI\\ShooterBulletCounterUI.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\UI\\ShooterUI.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\UI\\ShooterUI.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\Weapons\\ShooterPickup.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\Weapons\\ShooterPickup.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\Weapons\\ShooterProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\Weapons\\ShooterProjectile.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\Weapons\\ShooterWeapon.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\Weapons\\ShooterWeapon.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\Weapons\\ShooterWeaponHolder.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\UnrealProjects\\HauntedPlane\\Source\\HauntedPlane\\Variant_Shooter\\Weapons\\ShooterWeaponHolder.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\UnrealProjects\\HauntedPlane\\.vscode\\compileCommands_HauntedPlane\\HauntedPlane.1.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.7\\Engine\\Source"
+	}
+]

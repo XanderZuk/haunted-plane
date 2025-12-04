@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\xander\\documents\\github\\haunted-plane\\hauntedplane\\source\\hauntedplane\\private\\proceduralgeneration.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\xander\\documents\\github\\haunted-plane\\hauntedplane\\intermediate\\build\\win64\\x64\\hauntedplaneeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\xander\\documents\\github\\haunted-plane\\hauntedplane\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hauntedplane\\definitions.hauntedplane.h",
+            "c:\\users\\xander\\documents\\github\\haunted-plane\\hauntedplane\\source\\hauntedplane\\public\\proceduralgeneration.h",
+            "c:\\users\\xander\\documents\\github\\haunted-plane\\hauntedplane\\intermediate\\build\\win64\\unrealeditor\\inc\\hauntedplane\\uht\\proceduralgeneration.generated.h",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\string",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\xstring",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\__msvc_sanitizer_annotate_container.hpp",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\__msvc_string_view.hpp",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\xpolymorphic_allocator.h",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\cctype",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\queue",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\deque",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\vector",
+            "c:\\program files (x86)\\microsoft visual studio\\18\\buildtools\\vc\\tools\\msvc\\14.44.35207\\include\\__msvc_bit_utils.hpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
