@@ -29,7 +29,6 @@
 #include "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Source/HauntedPlane/HauntedPlaneCharacter.cpp"
 #include "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Source/HauntedPlane/HauntedPlaneGameMode.cpp"
 #include "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Source/HauntedPlane/HauntedPlanePlayerController.cpp"
-#include "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Source/HauntedPlane/Private/ProceduralGeneration.cpp"
 #include "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Source/HauntedPlane/Variant_Horror/HorrorCharacter.cpp"
 #include "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Source/HauntedPlane/Variant_Horror/HorrorGameMode.cpp"
 #include "C:/Users/xander/Documents/GitHub/haunted-plane/HauntedPlane/Source/HauntedPlane/Variant_Horror/HorrorPlayerController.cpp"

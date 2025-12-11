@@ -204,6 +204,10 @@ void AProceduralGeneration::PrintState(TArray<TArray<int>> map)
 		{
 			if (j == 1)
 				output += "1";
+			else if (j == 2)
+				output += "2";
+			else if (j == 3)
+				output += "3";
 			else
 				output += "0";
 		}

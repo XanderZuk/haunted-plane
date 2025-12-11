@@ -121,7 +121,7 @@ void AHorrorCharacter::SprintFixedTick()
 	} else {
 
 		// recover stamina
-		SprintMeter = FMath::Min(SprintMeter + SprintFixedTickTime, SprintTime);
+		SprintMeter = FMath::Min(SprintMeter + 0.02, SprintTime);
 
 		if (SprintMeter >= SprintTime)
 		{

@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"/Users/paulaalmeida/Desktop/haunted-plane/HauntedPlane/Source/HauntedPlane/HauntedPlane.Build.cs",
-		"/Users/paulaalmeida/Desktop/haunted-plane/HauntedPlane/Source/HauntedPlane.Target.cs",
-		"/Users/paulaalmeida/Desktop/haunted-plane/HauntedPlane/Source/HauntedPlaneEditor.Target.cs"
+		"C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\Source\\HauntedPlane\\HauntedPlane.Build.cs",
+		"C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\Source\\HauntedPlane.Target.cs",
+		"C:\\Users\\xander\\Documents\\GitHub\\haunted-plane\\HauntedPlane\\Source\\HauntedPlaneEditor.Target.cs"
 	],
 	"EngineVersion": "5.7.0"
 }
