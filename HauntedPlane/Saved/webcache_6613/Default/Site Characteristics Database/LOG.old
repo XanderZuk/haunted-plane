@@ -1,5 +1,1 @@
-2025/12/04-16:17:27.474 15b0 Log #3: 15 ops saved to Table #4 OK
-2025/12/04-16:17:27.497 15b0 Archiving C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\Site Characteristics Database/000003.log: OK
-2025/12/04-16:17:27.497 15b0 Table #4: 15 entries OK
-2025/12/04-16:17:27.499 15b0 Archiving C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001: OK
-2025/12/04-16:17:27.522 15b0 **** Repaired leveldb C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\Site Characteristics Database; recovered 1 files; 392 bytes. Some data may have been lost. ****
+2025/12/04-16:17:27.546 15b0 Reusing MANIFEST C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001

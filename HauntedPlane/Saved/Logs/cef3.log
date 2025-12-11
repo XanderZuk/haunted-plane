@@ -1,27 +1,14 @@
-[1864:9240:1204/161727.325:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[1864:9240:1204/161727.425:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[10384:17544:1204/161728.968:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[10384:17544:1204/161729.083:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[1864:1092:1204/161730.817:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1864:1092:1204/161730.823:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1864:1092:1204/161730.829:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1864:1092:1204/161730.835:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1864:9240:1204/161731.451:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[8104:18488:1204/161731.805:WARNING:backend_impl.cc(1764)] Destroying invalid entry.
-[8104:18488:1204/161731.806:ERROR:backend_impl.cc(989)] Critical error found -8
-[1864:1140:1204/161731.808:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1864:1140:1204/161731.813:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[8104:18488:1204/161731.973:WARNING:storage_block-inl.h(138)] Failed data load.
-[8104:18488:1204/161731.973:WARNING:storage_block-inl.h(138)] Failed data load.
-[8104:18488:1204/161731.974:ERROR:entry_impl.cc(955)] Failed to save user data
-[10384:17544:1204/161732.279:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[1864:16408:1204/161732.903:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[5656:11288:1204/161734.981:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-85E76392A7C33B9A647B9BB7E6020804 will be ignored
-[10384:16040:1204/161737.670:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
-[10384:17544:1204/161737.994:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
-[10384:17544:1204/161737.994:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
-[10384:17544:1204/161737.994:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
-[10384:17544:1204/161737.994:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
-[10384:16040:1204/161738.010:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
-[1864:9240:1204/161827.787:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
-[10384:17544:1204/161858.161:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[11664:11836:1204/223949.463:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[11664:11836:1204/223949.533:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[11664:11836:1204/223955.926:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[11664:4580:1204/223955.930:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11664:4580:1204/223955.936:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11664:4580:1204/223955.940:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11664:4580:1204/223955.944:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11664:2660:1204/224000.095:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[13272:7736:1204/224000.095:WARNING:backend_impl.cc(1543)] Messed up entry found.
+[13272:7736:1204/224000.095:ERROR:backend_impl.cc(989)] Critical error found -8
+[11664:2660:1204/224000.100:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11664:13580:1204/224000.157:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: C:\Users\xander\Documents\GitHub\haunted-plane\HauntedPlane\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[13272:7736:1204/224000.248:ERROR:entry_impl.cc(955)] Failed to save user data
+[11664:11836:1204/224937.623:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
